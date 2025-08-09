@@ -1,0 +1,56 @@
+.greenRow {
+    background-color:#5a6c37;
+    line-height:30px;
+}
+
+.logo {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.withBackGroundImage {
+    width: 100%;
+    height: 230px;
+    background-image: url("./IMG_0350jw45.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.announcementText {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    position: absolute;
+    z-index: 100000;
+    text-align: center;
+    justify-content: center;
+    color: #fff !important;
+    background: transparent;
+    font-size: 46px;
+    font-weight: 300;
+}
+
+.bodyText {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+.copyrightNotice {
+    color: #fff !important;
+    background: transparent;
+    font-size: 10px;
+    padding-left: 30px;
+}
